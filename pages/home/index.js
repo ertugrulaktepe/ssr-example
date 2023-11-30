@@ -10,7 +10,7 @@ const Home = (props) => {
     <>
       {repo.map((x) => (
         <>
-          <h1>{x.name}</h1>
+          <h1>{x.name} asd</h1>
           <h1>{x.address.street}</h1>
         </>
       ))}
